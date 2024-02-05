@@ -1,12 +1,14 @@
-var maths = document.querySelector('.maths');
-var phy = document.querySelector('.phy');
-var cs = document.querySelector('.cs');
+var maths = document.getElementsByClassName('maths');
+var phy = document.getElementsByClassName('phy');
+var cs = document.getElementsByClassName('cs');
 var rollno = document.querySelector('#rollno');
 var btn = document.querySelector('.btn');
 
 const subjects = [
     {
-
+        math:"null",
+        physics:"null",
+        cscience:"null",
     },
     {
         math:"50",
@@ -28,6 +30,11 @@ const subjects = [
    
 btn.addEventListener('click',function(){
  
+        if(rollno.value === '')
+        {
+            alert('Enter the rollno');
+        }
+
         for(let i=0; i<=subjects.length; i++)
         {
             if(rollno.value === i)
