@@ -17,7 +17,7 @@ body
 form
 {
     display: flex;
-    /* align-items: center; */
+
     justify-content: center;
     flex-direction: column;
     margin-bottom: 5vw;
@@ -68,4 +68,9 @@ button
 label
 {
     color: white;
+}
+
+.main
+{
+    background-color: grey;
 }
