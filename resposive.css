@@ -1,0 +1,27 @@
+
+@media (max-width:420px) {
+    form 
+    {
+        width: 90vw;
+        height: 50vh;
+        margin-bottom: 15vh;
+    }
+    label , input 
+    {
+        width: 58vw;
+        height: 3vh;
+    }
+    button 
+    {
+        width: 30vw;
+    }
+    table, th, td {
+        
+        height:10vh;
+        width: 92vw;
+        margin-bottom: 30vh;
+    }
+} 
+
+
+
